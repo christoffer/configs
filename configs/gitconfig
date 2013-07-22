@@ -21,3 +21,5 @@
 	statusHints = false
 [diff]
 	renames = copies
+[credential]
+	helper = cache
