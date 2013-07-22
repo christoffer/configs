@@ -1,0 +1,23 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = true
+[merge]
+	tool = meld
+	summary = true
+	stat = true
+[alias]
+	unstage = reset HEAD
+[core]
+	excludesfile = /Users/christoffer/.gitignore
+	quotepath = false
+	whitespace = trailing-space,space-before-tab
+[user]
+	email = christoffer.klang@gmail.com
+	name = Christoffer Klang
+[advice]
+	statusHints = false
+[diff]
+	renames = copies
