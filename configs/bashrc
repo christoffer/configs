@@ -17,3 +17,6 @@ alias gpr="git pull --rebase"
 
 alias ls="ls --color=auto"
 
+if [ -e $HOME/.bashrc_local ]; then
+  source $HOME/.bashrc_local
+fi
