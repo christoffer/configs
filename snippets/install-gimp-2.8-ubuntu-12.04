@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+if [ $(whoami) != "root" ]; then
+  echo "Need to run as root, becase we're installing stuff"
+fi
+
+sudo add-apt-repository ppa:noobslab/ppa-gimp
+sudo apt-get update
+sudo apt-get install gimp gimp-plugin-registry
