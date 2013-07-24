@@ -1,0 +1,23 @@
+{ "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "hardbol"} },
+{ "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol"}, "context":
+  [
+  { "key": "preceding_text", "operator": "regex_match", "operand": "^$", "match_all": true }
+  ]
+},
+{ "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "hardbol", "extend": true}, "context":
+  [
+  { "key": "setting.transient_mode_on", "operator": "equal", "operand": true }
+  ]
+},
+{ "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": true}, "context":
+  [
+  { "key": "setting.transient_mode_on", "operator": "equal", "operand": true },
+  { "key": "preceding_text", "operator": "regex_match", "operand": "^$", "match_all": true }
+  ]
+},
+{ "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "hardeol"} },
+{ "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "hardeol", "extend": true}, "context":
+  [
+  { "key": "setting.transient_mode_on", "operator": "equal", "operand": true }
+  ]
+},
