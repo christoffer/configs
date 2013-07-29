@@ -22,6 +22,6 @@
 [diff]
 	renames = copies
 [credential]
-	helper = cache --timeout 3600
+	helper = cache --timeout 18000
 [push]
 	default = upstream
