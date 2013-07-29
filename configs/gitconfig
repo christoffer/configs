@@ -22,4 +22,4 @@
 [diff]
 	renames = copies
 [credential]
-	helper = cache
+	helper = cache --timeout 3600
