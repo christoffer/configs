@@ -25,3 +25,11 @@ se number
 se nohlsearch
 se nojoinspaces
 se guicursor+=a:blinkon0
+
+nmap ; :
+
+color morning
+
+if has("gui_running")
+  se guioptions=a
+endif
