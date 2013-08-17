@@ -30,6 +30,8 @@ nmap ; :
 
 color morning
 
+silent call pathogen#infect()
+
 if has("gui_running")
   se guioptions=a
 endif
