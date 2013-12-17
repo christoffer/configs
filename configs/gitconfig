@@ -10,6 +10,12 @@
 	stat = true
 [alias]
 	unstage = reset HEAD
+	lg=log --graph --oneline
+	p=push
+	pf=push --force
+	f=pull --ff-only
+	ff=pull --ff-only --force
+	co=checkout
 [core]
 	excludesfile = /Users/christoffer/.gitignore
 	quotepath = false

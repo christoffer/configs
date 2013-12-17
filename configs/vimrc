@@ -19,6 +19,8 @@ se noai
 filetype plugin indent on
 syntax on
 
+au! BufNewFile,BufRead *.gradle set filetype=groovy
+
 se list
 se listchars=trail:·
 se number
@@ -30,8 +32,8 @@ nmap ; :
 
 color morning
 
-silent call pathogen#infect()
-
 if has("gui_running")
   se guioptions=a
 endif
+
+silent! call pathogen#infect()
