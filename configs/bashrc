@@ -23,8 +23,3 @@ fi
 
 export PATH=$HOME/scripts:$HOME/configs/scripts:$PATH
 
-export ANDROID_HOME=$HOME/android
-export ANDROID_NDK_HOME=$HOME/opt/android-ndk-r8e
-export ANDROID_PLATFORM=${ANDROID_NDK_HOME}/platforms/android-14
-export RMSDK_ROOT=$HOME/work/rmsdk
-export PATH=${ANDROID_NDK_HOME}/toolchains/arm-linux-androideabi-4.4.3/prebuilt/darwin-x86_64/bin:$PATH
