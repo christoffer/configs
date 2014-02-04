@@ -1,1 +1,2 @@
-xmodmap .Xmodmaprc
+setxkbmap -option ctrl:nocaps
+setxkbmap -option altwin:swap_lalt_lwin
